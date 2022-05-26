@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #4f4f4f;
+  letter-spacing: -0.035em;
+  margin: 0;
+  padding: 0;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #333333;
+  margin: 60px auto 30px auto;
+  width: 350px;
+  height: 142px;
+  word-spacing: 1.5rem;
+}
+
+.header-title {
+  text-transform: uppercase;
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.04;
+  letter-spacing: -0.08em;
+  color: #333333;
+  margin: 20px 0 65px 25px;
+  word-spacing: 0.5rem;
+  width: 185px;
+  height: 25px;
+}
+
+button {
+  width: 216px;
+  height: 68px;
+  font-weight: 700;
+  background: #333;
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 0;
+  margin: 65px 0 0 25px;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer {
+  color: #bdbdbd;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  width: 286px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+p {
+  width: 330px;
+  height: 80px;
+  word-spacing: 0.85rem;
+  margin: 0 auto 0 auto;
+}
