@@ -18,10 +18,10 @@ html {
   font-weight: 700;
   font-size: 48px;
   color: #333333;
-  margin: 60px auto 30px auto;
   width: 350px;
   height: 142px;
   word-spacing: 1.5rem;
+  margin-left: 20px;
 }
 
 .header-title {
@@ -32,10 +32,10 @@ html {
   line-height: 1.04;
   letter-spacing: -0.08em;
   color: #333333;
-  margin: 20px 0 65px 25px;
   word-spacing: 0.5rem;
   width: 185px;
   height: 25px;
+  margin: 20px 0 64px 24px;
 }
 
 button {
@@ -47,7 +47,7 @@ button {
   text-transform: uppercase;
   font-size: 14px;
   padding: 0;
-  margin: 65px 0 0 25px;
+  margin: 66px 0 0 20px;
 }
 
 button:hover {
@@ -68,11 +68,9 @@ footer {
   line-height: 1.2;
   position: absolute;
   bottom: 0;
-  margin-bottom: 25px;
+  padding: 24px 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
-
+  text-align: center;
 }
 
 footer a {
@@ -90,15 +88,43 @@ em {
 }
 
 img {
-  display: block;
   width: 286px;
-  height: 220px;
-  margin: 0 auto;
+  height: 238px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
   width: 330px;
   height: 80px;
   word-spacing: 0.85rem;
-  margin: 0 auto 0 auto;
+  display: flex;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    width: 540px;
+    height: 445px;
+    margin: 0 120px 0 77px;
+    float: left;
+  }
+
+  .header-title {
+    margin: 40px 0 120px 77px;
+  }
+
+  .main-title {
+    margin-bottom: 36px;
+    width: 586px;
+    height: 190px;
+    font-size: 64px;
+    display: flex;
+  }
+
+  p {
+    margin-bottom: 70px;
+    width: 287px;
+  }
 }
